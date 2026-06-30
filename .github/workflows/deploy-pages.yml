@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - claude/website-design-mockup-uank3w
+      - main
     paths:
       - 'kiezquiz/**'
       - '.github/workflows/deploy-pages.yml'
